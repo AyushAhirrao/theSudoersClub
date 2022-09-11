@@ -1,0 +1,23 @@
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.project-box {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0rem 0rem;
+    height: 70vh;
+    margin: 2rem 4rem;
+    border-radius: 10px;
+
+}
+
+.project-btn {
+    margin-top: 5rem;
+}

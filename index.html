@@ -153,20 +153,35 @@
             <div class="project-content">
                 <h2 class="project-heading">Projects by The Sudoers Club</h2>
                 <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, fugit praesentium totam nihil
-                enim iste animi doloribus eum vitae quam. Tempora eos, ipsa accusantium sunt cum ex sint obcaecati
-                placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto iste voluptatibus
-                tempore, aliquxime necessitatibus esse asperiores quasi, harum quibusdam doloremque. Earum fugiat facilis repellat in dolores.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, fugit praesentium totam nihil
+                    enim iste animi doloribus eum vitae quam. Tempora eos, ipsa accusantium sunt cum ex sint obcaecati
+                    placeat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto iste voluptatibus
+                    tempore, aliquxime necessitatibus esse asperiores quasi, harum quibusdam doloremque. Earum fugiat
+                    facilis repellat in dolores.
                 </p>
             </div>
         </div>
     </section>
 
-    <section id="contactus">
-        <div class="contact-form">
-            <iframe src="" frameborder="0"></iframe>
+
+    <section class="contactus">
+        <div class="contact">
+            <iframe src="contact.html" style="overflow:scroll;" frameborder="0" marginheight="0" marginwidth="0"
+                id="iframe">Loading…</iframe>
         </div>
     </section>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="copy">
+            <span>&#169; 2022 The Sudoers Club</span>
+        </div>
+        <div class="icon">
+            <img onclick="opengit();" src="resources/images/icons/github_icon.svg" alt="github">
+        </div>
+    </footer>
+    
     <script>
         const searchOn = () => {
             let searchInput = document.getElementById("home-search-bar").value;
@@ -180,6 +195,10 @@
         const searchOff = () => {
             let element = document.querySelector('#search-off');
             element.removeAttribute('id')
+        }
+
+        const searchfocous = () => {
+            window.open('search')
         }
 
 
